@@ -7,7 +7,7 @@ const AdminHomePage = () => {
   console.log("ADMIN HOME PAGE")
   return (
     <div>
-      <h1>AdminHomePage</h1>
+      <h1>** AdminHomePage **</h1>
       {!isLoggedIn ? 
         <div>You are not authorized to visit this page.</div> : 
         <Link to='/admin/products'>Products</Link>}
